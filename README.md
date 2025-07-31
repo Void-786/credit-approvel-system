@@ -39,7 +39,7 @@ Note: Make sure to add a slash ('/') at the end of the API.
 
 >Clone this project
 ```bash
-git clone https://github.com/kushalv238/credit_approval_system.git
+git clone https://github.com/Void-786/credit-approvel-system.git
 ```
 >Navigate to the project directory
 ```bash
@@ -56,13 +56,6 @@ docker-compose up
 http://localhost:8000/api/v1/
 ```
 
-## Testing the project
-Use this Postman collection with existing APIs to test the project
-
-[Collection](https://www.postman.com/telecoms-geologist-66457404/workspace/open/collection/26309885-7d351ebb-b7c9-4ee6-8447-239e59c549bc)
-
-Note: Change the agent to [desktop agent](https://www.postman.com/downloads/postman-agent/) if you run Postman on a browser. The option can be found on the bottom right.
-
 ## Adding production secrets
 Create a ```.env``` file in the root directory of this project & add a [SECRET_KEY](https://docs.djangoproject.com/en/5.0/ref/settings/#secret-key) for django to use.
 >Run the following command in your Django project's Python shell to generate a secret key
@@ -76,6 +69,3 @@ SECRET_KEY=your_secret_key_here
 ```
 
 Note: By default this application uses an insecure key please change it to avoid unwanted attacks.
-
-## Author
-[Kushal Vadodaria](https://linkedin.com/in/kushal-vadodaria/)
